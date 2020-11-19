@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="7.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Retail.Contracts\Retail.Contracts.csproj" />
+    <ProjectReference Include="..\Retail.Infrastructure\Retail.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
